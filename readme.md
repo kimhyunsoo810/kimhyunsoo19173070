@@ -10,5 +10,6 @@
 밋밋한 배경을 backgroundcolor을 이용하여 바꿔주었고, 영화의 아이콘도 첨부하여 조회하였을때 좀 더 한 눈에 들어오게 작성하였습니다.
 
 영화 요청할 코드는 아래 작성하였습니다!
+
 http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=24deca474b09142bf3facfc71dbd1031&targetDt=20201205 
 
