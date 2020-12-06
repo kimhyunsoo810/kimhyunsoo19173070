@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 
@@ -38,6 +39,15 @@ public class LoginActivity extends AppCompatActivity {
         usernameInput = (EditText) findViewById(R.id.usernameInput);
         passwordInput = (EditText) findViewById(R.id.passwordInput);
 
+        }
+
+
+    public void Onclickmsg(View v){
+        Toast.makeText(this,"19173070_김현수", Toast.LENGTH_SHORT).show();
+    }
+
+    public void Onclickapp(View v){
+        Toast.makeText(this,"해당일자의 영화순위, 정보 등을 조회할 수 있습니다.", Toast.LENGTH_SHORT).show();
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
